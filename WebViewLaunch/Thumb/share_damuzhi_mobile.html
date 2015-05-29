@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type">
+<meta content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<title>大拇指</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="animations.css">
+<link rel="stylesheet" type="text/css" href="share_damuzhi_mobile.css">
+
+</head>
+<body>
+<div id="page-hd">
+  <img src="icon_up.png" alt="" class="arrow-up pt-page-moveIconUp">
+</div>
+
+<div id="page-content">
+<!--music start-->
+<!--  <audio id="audio" class="media01" autoplay>
+  	<source src="music01.mp3" type="audio/mp3"></source>
+  </audio>
+  <img class="media_icon" id="media_icon" onclick="play_stop()" src="images/damuzhi/music.png" width="40">-->
+<!--music end-->
+
+<!-- PTT Add start-->
+
+  <div class="nav">
+      <ul>
+          <li class="navli selected"></li>
+          <li class="navli"></li>
+          <li class="navli"></li>
+          <li class="navli"></li>
+          <li class="navli"></li>
+          <li class="navli"></li>
+      </ul>
+  </div>
+<!-- PTT Add end-->
+
+
+  <div class="page page-1 page-current">
+      <div class="city1"><img src="city1.png"></div>
+      <div class="pic1"><img src="pic1.png"></div>
+      <div class="font1"><img src="font1.png"></div>
+      <div class="light1"><img src="light.png"></div>
+  </div>
+  
+  <div class="page page-2 hide">
+      <div class="city2"><img src="city2.png"></div>
+      <div class="pic2"><img src="pic2.png"></div>
+      <div class="font2"><img src="font2.png"></div>
+      <div class="light2"><img src="light.png"></div>
+  </div>
+  
+  <div class="page page-3 hide">
+      <div class="bg3"><img src="bg3.png"></div>
+      <div class="pic3"><img src="pic3.png"></div>
+      <div class="font3"><img src="font3.png"></div>
+  </div>
+ 
+  <div class="page page-4 hide">
+      <div class="bg4"><img src="bg4.png"></div>
+      <div class="pic4"><img src="pic4.png"></div>
+      <div class="font4-1"><img src="font4-1.png"></div>
+      <div class="font4-2"><img src="font4-2.png"></div>
+  </div>
+  
+  <div class="page page-5 hide">
+      <div class="bg5"><img src="bg5.png"/></div>
+      <div class="font5-1"><img src="font5-1.png"></div>
+      <div class="font5-2"><img src="font5-2.png"></div>
+      <div class="pic5-1"><img src="pic5-1.png"></div>
+      <div class="pic5-2"><img src="pic5-2.png"></div>
+  </div>
+  
+  <div class="page page-6 hide">
+      <div class="pic6-1"><img src="pic6-1.png"></div>
+      <div class="pic6-2"><img src="pic6-2.png"></div>
+      <div class="pic6-3"><img src="pic6-3.png"></div>
+      <div class="pic6-4">
+      	<a href="QRCode.html">
+        	<img src="pic6-4.png">
+       	</a>
+      </div>
+  </div>
+
+</div>
+
+
+<div id="page-ft">
+</div>
+
+<!--music control start-->
+<!--<script type="text/javascript">
+	var myMusic = document.getElementById('audio');
+	var myMusicIcon = document.getElementById('media_icon')
+	myMusic.play();
+	function play_stop(){
+		if(myMusicIcon.className=='media_icon'){
+			myMusic.pause();
+			myMusicIcon.className='current';	
+		}else{
+			myMusic.play();
+			myMusicIcon.className='media_icon';	
+		}
+	}
+</script>-->
+<!--music control end-->
+
+<script type="text/javascript" src="zepto.min.js"></script>
+<script type="text/javascript" src="touch.js"></script>
+<script type="text/javascript" src="damuzhi.js"></script>
+</body>
+</html>
